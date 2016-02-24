@@ -10,3 +10,18 @@ CREATE TABLE [dbo].[Attachments](
 	[FileExt] [nvarchar](50) NULL,
 	[InvoicePayable] [bit] NOT NULL
 ) ON [PRIMARY]
+
+nuova
+
+CREATE TABLE [dbo].[Attachments](
+	[AttachmentID] [int] NOT NULL,
+	[AttachmentName] [nvarchar](255) NULL,
+	[Path] [nvarchar](255) NOT NULL,
+	[OriginalFileName] [nvarchar](255) NOT NULL,
+	[AttachmentDate] [datetime] NOT NULL,
+	[UserID] [int] NOT NULL,
+	[InvoiceID] [int] NOT NULL,
+	[AttachmentDimension] [int] NOT NULL,
+	[FileExt] [nvarchar](50) NULL,
+	[InvoicePayable] [bit] NOT NULL
+) ON [PRIMARY]
