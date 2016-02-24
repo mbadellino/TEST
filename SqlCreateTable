@@ -25,3 +25,5 @@ CREATE TABLE [dbo].[Attachments](
 	[FileExt] [nvarchar](50) NULL,
 	[InvoicePayable] [bit] NOT NULL
 ) ON [PRIMARY]
+
+modifica 
